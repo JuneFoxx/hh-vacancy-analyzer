@@ -1,1 +1,29 @@
-.vscode
+# Virtual Environment
+venv/
+env/
+.venv/
+
+# Django
+*.pyc
+__pycache__/
+*.pyo
+db.sqlite3
+db.sqlite3-journal
+
+# Environment variables
+.env
+.env.local
+
+# Logs
+*.log
+logs/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
